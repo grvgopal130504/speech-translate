@@ -48,14 +48,57 @@ def index():
         <html lang="en">
           <head>
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <title>Speech Recognition and Translation</title>
             <style>
-            body {
-                background-image: linear-gradient(to left,#0000FF,#0099cc);
-                color: white;
+              body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to right, #ff7e5f, #feb47b);
+                color: #333;
                 text-align: center;
-                padding-top: 50px;
-            }
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              }
+              h1 {
+                color: #fff;
+                margin-bottom: 20px;
+                font-size: 2.5rem;
+              }
+              form {
+                background: rgba(255, 255, 255, 0.9);
+                border-radius: 8px;
+                padding: 20px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                max-width: 600px;
+                width: 100%;
+              }
+              select, button {
+                padding: 10px;
+                margin-top: 10px;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                font-size: 1rem;
+              }
+              button {
+                background-color: #ff7e5f;
+                color: white;
+                cursor: pointer;
+                border: none;
+                font-size: 1rem;
+              }
+              button:hover {
+                background-color: #feb47b;
+              }
+              p {
+                font-size: 1.2rem;
+                margin-top: 20px;
+                color: #333;
+              }
             </style>
           </head>
           <body>
