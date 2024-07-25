@@ -77,4 +77,4 @@ def index():
     ''', recognized_text=recognized_text, translated_text=translated_text, supported_languages=SUPPORTED_LANGUAGES)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
