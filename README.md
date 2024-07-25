@@ -1,4 +1,4 @@
-# speechtotext
+# speech-translate
 Python Program to Display Your Speech as text
 
 first open cmd in windows and type all the commands one by one
